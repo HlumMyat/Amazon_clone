@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+     <style>
+        legend{
+            border-color: white;
+        }
+        
+        body{
+            background-color: rgb(155, 155, 155);
+            color: white;
+        }
+        input,textarea{
+            color: white;
+            background-color: rgb(160, 186, 255);
+        }
+        body{
+            font-size: larger;
+            display: inline-block;
+        }
+     </style>
+</head>
+<body>
+        <table border="0">
+        </td></tr>
+        <form name="sign in"   action="index.html" method="get">
+         <label for="Name">Name:</label><input type="text" name="name" maxlength="10" size="50" placeholder="Enter your name"required><br><br>
+        <label for="Age">Age:</label><input type="date" required><br><br>
+                 <label for="Genter">Genter:</label><input type="radio" name="male" value="Male"required>Male
+                                  <input type="radio" name="female" value="Female">Female<br><br>
+                                  <label for="Genter">Child/aduld:</label><input type="radio" name="child" value="child"required>child
+                                  <input type="radio" name="adult" value="adult">adult<br><br>
+           <label for="Address">Address:</label><textarea name="address" cols="10" rows="3" placeholder="Enter your addresss"required></textarea>
+         <br><br>  <input type="submit" value="submit"></table>
+</body>
+</html>
