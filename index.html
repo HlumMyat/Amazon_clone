@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Am@zon</title>
+    <style>
+        #logo{
+            width: 6%;
+            height: 6%;
+        }
+        a{
+            font-size: x-large;
+            text-decoration: none;
+            color: whitesmoke;
+            margin-right: 15px;
+           
+        }
+        
+        
+        #Search{
+             border-radius: 10px;
+             padding-right:400px ;
+             padding-left: 15px;
+             padding-top: 8px;
+             padding-bottom: 8px;
+             font-size: larger;
+             margin-right: 15px;
+        }
+        select{
+            padding-top: 8px;
+            padding-bottom: 8px;
+            font-size: larger;
+            margin-right: 15px;
+            
+        }
+        a:hover{
+            border: rgb(219, 219, 219) 1px solid;
+            
+        }
+        
+        body{
+            background-color:rgb(40, 44, 70) ;
+            color: white;
+            display: inline-block;
+        }
+        #sign_in{
+            padding: 9px;
+            font-size: larger;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius: 10px;
+            background-color: white;
+        }
+        #d1{
+           
+            border: white 2px solid;
+        }
+        #d2{
+            border: white 2px solid;
+           
+        }
+        #d2{
+              position:fixed;    
+        }
+    </style>
+    <script src="jQuery/jquery-1.11.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#electronics").click(function(){
+                $("#d1").slideToggle("slow");
+            });
+        });
+        
+        function onpenWin(){
+            // windowopen("https://www.google.com");
+            myWindow=window.open("","","width=200,height=100","");
+            myWindow.document.write("Kpay-name:______________   Wave-name:____________");
+        }
+        $(document).ready(function(){
+            $("#toys").click(function(){
+                $("#d1").slideToggle("slow");
+            });
+        });
+    </script>
+   
+    
+</head>
+<body>
+    <header>
+        <nav><form action="sign_in.html">
+        <a href="index.html" style="margin-right:20px ;">Am@zon</a>
+        <a href="delivery.html" style="margin-right:20px ;">Delivery Service</a>
+        <input type="text" name="Search" id="Search" placeholder="Search">
+        <select name="Country" aria-placeholder="Country">
+            <option value="Myanmar">Myanmar</option>
+            <option value="UK">UK</option>
+            <option value="US">US</option>
+            <option value="Korea">Korea</option>
+            <option value="Japan">Japan</option>
+            <option value="America">America</option>
+            <option value="India">India</option>
+            <option value="Laos">Laos</option>
+            <option value="Thailand">Thailand</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="Canada">Canada</option>
+            <option value="Australia">Australia</option>
+            <option value="Figi">Fiji</option>
+        </select>
+        <button id="sign_in">Sign in</button>
+    </form></nav>
+    </header> 
+    <h2 id="electronics">Electronics:</h2>
+    <div style="width: 25%; height: auto;" id="d1">
+    <img src="img/fir.jpg" style="width: 100%;">
+        
+        <div style="padding-bottom: 8px;padding-left: 8px;
+        padding-right:8px ;">
+            INSIGNIA 43-inch Class F30 Series LED 4K UHD Smart Fire TY with Alexa Voice Remote (NS-43F301NA22, 2021 Model) 
+        </div>
+        <div style="padding-bottom: 10px;padding-left: 8px;
+        padding-right:8px ;">
+            <font style="color: rgb(255, 255, 255); font-size: larger;background-color: red;">  33% off   </font>  Limited time deal 
+        </div>
+        <div style="padding-bottom: 10px;padding-left: 8px;
+        padding-right:8px ;">
+            <del style="padding-right: 10px;color: rgb(255, 0, 0); "> $269.99</del>  $17999   <input type="button" value="Buy" onClick="onpenWin()">
+        </div>
+    </div> <br>
+    <div id="d1"style="width: 25%; height: auto;" >
+        <img src="img/sec.jpg" style="width: 100%;">
+        <div style="padding-bottom: 8px;padding-left: 8px;
+            padding-right:8px ;">
+                Shark AV753 ION Robot Vacuum, Tri-Brush System, Wifi Connected, 120 Min Runtime, Works with Alexa, Multi Surface Cleaning, Grey
+            </div>
+            <div style="padding-bottom: 10px;padding-left: 8px;
+            padding-right:8px ;">
+                <font style="color: rgb(255, 255, 255); font-size: larger;background-color: red;">  22% off   </font>  Limited time deal 
+            </div>
+            <div style="padding-bottom: 10px;padding-left: 8px;
+            padding-right:8px ;">
+                <del style="padding-right: 10px;color: rgb(255, 0, 0); "> $229.99</del>  $17999   <input type="button" value="Buy" onClick="onpenWin()">
+            </div>
+        </div>
+<br>
+        <div id="d1"style="width: 25%; height: auto;" >
+           <img src="img/third.jpg" style="width: 100%;">
+            <div style="padding-bottom: 8px;padding-left: 8px;
+                padding-right:8px ;">
+                    Beats Studio Buds + | True Wireless Noise Cancelling Earbuds, Enhanced Apple & Android Compatibility, Built-in Microphone, Sweat Resistant Bluetooth Headphones, Spatial Audio - Cosmic Silver
+                </div>
+                <div style="padding-bottom: 10px;padding-left: 8px;
+                padding-right:8px ;">
+                    <font style="color: rgb(255, 255, 255); font-size: larger;background-color: red;">  24% off  </font>  Limited time deal 
+                </div>
+                <div style="padding-bottom: 10px;padding-left: 8px;
+                padding-right:8px ;">
+                    <del style="padding-right: 10px;color: rgb(255, 0, 0); "> $169.95</del>  $12999   <input type="button" value="Buy" onClick="onpenWin()">
+                </div>
+            </div><br>
+
+
+            <div id="d1"style="width: 25%; height: auto;" >
+                <img src="img/eig.jpg" style="width: 100%;">
+                 <div style="padding-bottom: 8px;padding-left: 8px;
+                     padding-right:8px ;">
+                         All-new Amazon Fire HD 10 tablet, built for relaxation, 10.1" vibrant Full HD screen, octa-core processor, 3 GB RAM, latest model (2023 release), 64 GB, Black
+                        </div>
+                     <div style="padding-bottom: 10px;padding-left: 8px;
+                     padding-right:8px ;">
+                         <font style="color: rgb(255, 255, 255); font-size: larger;background-color: red;">   42% off </font>  Limited time deal 
+                     </div>
+                     <div style="padding-bottom: 10px;padding-left: 8px;
+                     padding-right:8px ;">
+                         <del style="padding-right: 10px;color: rgb(255, 0, 0); "> $179.99</del> $10499  <input type="button" value="Buy" onClick="onpenWin()">
+                     </div>
+                 </div>
+
+             
+            
+            
+            
+
+           <h2 id="toys">Toys</h2>
+
+
+
+<div id="d1"style="width: 25%; height: auto;" >
+    <img src="img/fourth.jpg" style="width: 100%;">
+    <div style="padding-bottom: 8px;padding-left: 8px;
+    padding-right:8px ;">LEGO Creator 3 in 1 Flatbed Truck with Helicopter Toy, Transforms from Flatbed Truck Toy to Propeller Plane to Hot Rod and SUV Car Toys</div>
+<div style="padding-bottom: 10px;padding-left: 8px;
+padding-right:8px ;">
+    $15.75(7 new offers)
+</div>
+  <div style="padding-bottom: 10px;padding-left: 8px;
+  padding-right:8px ;">  Ages: 7 years and up     <input type="button" value="Buy" onClick="onpenWin()">
+</div>
+
+</div> <br>
+
+<div id="d1"style="width: 25%; height: auto;" >
+    <img src="img/fif.jpg" style="width: 100%;">
+    <div style="padding-bottom: 8px;padding-left: 8px;
+    padding-right:8px ;">Lego Star Wars Stormtrooper Mech 75370 Star Wars Collectible for Kids, This Buildable Star Wars Action Figure Features a Cockpit, Buildable Blaster and Iconic Imperial Stormtrooper Minifigure"
+<div style="padding-bottom: 10px;padding-left: 8px;
+padding-right:8px ;">
+    $14.26(44 used & new offers)
+</div>
+  <div style="padding-bottom: 10px;padding-left: 8px;
+  padding-right:8px ;">  Ages: 3 months - 8 years     <input type="button" value="Buy" onClick="onpenWin()">
+</div></div></div><br>
+
+<div style="width: 25%; height: auto;" id="d1"> 
+    <img src="img/six.jpg" style="width: 100%;">
+    <div style="padding-bottom: 8px; padding-left: 8px;">
+        "LEGO City Race Car and Car Carrier Truck Toy Playset, Vehicle Transporter with Adjustable Loading Ramp and Race Car Toy, Racer and Driver Minifigures"
+    </div>
+    <div style="padding-bottom: 10px;padding-left: 8px;
+    padding-right:8px ;">
+        $3599  
+    </div>
+    <div style="padding-bottom: 10px;padding-left: 8px;
+    padding-right:8px ;">
+        <font style="background-color: red; font-size: larger;" >save 30%</font> with coupon    <input type="button" value="Buy" onClick="onpenWin()">
+    </div> </div><br>
+
+    <div style="width: 25%; height: auto;" id="d1"> 
+        <img src="img/sev.webp" style="width: 100%;">
+        <div style="padding-bottom: 8px; padding-left: 8px;">
+            Force1 Tornado LED Remote Control Car for Kids - Double Sided Fast RC Car, 4WD Off-Road Stunt Car with 360 Flips, All Terrain Tires, LEDs, Rechargeable Toy Car Batteries, and Easy Remote"</div>
+        <div style="padding-bottom: 10px;padding-left: 8px;
+        padding-right:8px ;">
+             $21.07(5 used & new offers)
+            
+        </div>
+        <div style="padding-bottom: 10px;padding-left: 8px;
+        padding-right:8px ;">
+            Ages: 6 years and up    <input type="button" value="Buy" onClick="onpenWin()">
+        </div></div>
+
+        <h1>Stationery</h1>
+
+        <div style="width: 25%; height: auto;" id="d1">
+            <img src="img/nin.jpg" style="width: 100%;">
+            <div style="padding-bottom: 8px; padding-left: 8px;">
+                Sailor 11-3924-420 Fountain Pen, Pro Fit, Raro, Black, Medium Point
+            </div >
+            <div style="padding-bottom: 8px; padding-left: 8px;">
+            <font style="background-color: red;">   Limited time deal</font>
+        </div>
+            <div style="padding-bottom: 8px; padding-left: 8px;">
+                Typical price:  <font style="color: red;"> <del>$179.18 </del>   </font> <font style="font-size: x-large;"> $158.77 </font>
+            </div >
+            <div style="padding-bottom: 8px; padding-left: 8px;">
+                Only 19 left in stock - order soon.
+            </div>
+            
+                <div style="padding-bottom: 8px; padding-left: 8px;">
+                Price may vary by color  <input type="button" value="Buy" onClick="onpenWin()">
+        </div>
+        </div><br>
+
+       <div style="width: 25%; height: auto;" id="d1">
+        <img src="img/ten.jpg" style="width: 100%;">
+        <div style="padding-bottom: 8px; padding-left: 8px;">
+            Plus Deco Rush Multicolor 0.2 inch (6 mm) Home Set 
+        </div>
+        <div style="padding-bottom: 8px; padding-left: 8px;">
+            Limited time deal
+        </div>
+        <div style="padding-bottom: 8px; padding-left: 8px;">
+            Typical price: <font style="color: red;"><del> $18.53   </del>    </font>   <font style="font-size: x-large;">   $13.02 </font>
+        </div>
+        <div style="padding-bottom: 8px; padding-left: 8px;">
+            Save 5% on 4 select item(s)   <input type="button" value="Buy" onClick="onpenWin()">
+        </div>
+       </div></div><br>
+ 
+
+       <div style="width: 25%; height: auto;" id="d1">
+        <img src="img/ele.jpg" style="width: 100%;" >
+        <div style="padding-bottom: 8px; padding-left: 8px;">
+            Plus IS-550CM 39-150 + 39-188 Roller Keshipon Stick Body 1 Blue + 1 Dedicated Ink Cartridge
+
+        </div>
+        <div style="padding-bottom: 8px; padding-left: 8px;">
+            Limited time deal
+        </div>
+        <div style="padding-bottom: 8px; padding-left: 8px;">
+            Typical price: <font style="color: red;"><del>$20.71   </del>    </font>   <font style="font-size: x-large;">   $13.30 </font>
+            
+        </div>
+        <div style="padding-bottom: 8px; padding-left: 8px;">
+            Save 5% on 4 select item(s)
+        </div>
+        <div style="padding-bottom: 8px; padding-left: 8px;">
+            Only 3 left in stock - order soon     <input type="button" value="Buy" onClick="onpenWin()">
+        </div>
+       </div><br>
+
+       <div style="width: 25%; height: auto;" id="d1">
+        <img src="img/twel.jpg" style="width: 100%;">
+        <div  style="padding-bottom: 8px; padding-left: 8px;">
+            SGM-017 Ghibli Spirited Away Stamp, Hanko, Mini Stamp
+        </div >
+        <div style="padding-bottom: 8px; padding-left: 8px;">
+            $15.54
+        </div>
+        <div style="padding-bottom: 8px; padding-left: 8px;">
+            Only 14 left in stock - order soon     <input type="button" value="Buy" onClick="onpenWin()">
+        </div>
+       </div>
+
+
+</body>
+</html>
+
+
